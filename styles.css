@@ -1,0 +1,11 @@
+:root {
+	--green1: #1e3932;
+	--green2: #d4e9e2;
+	--green3: #f3f1e7;
+	--green4: #008248;
+	--white: #f1f8f6;
+	--black: #000000;
+}
+html {
+	font-size: 62.5%;
+}
