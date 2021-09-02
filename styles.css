@@ -4,10 +4,12 @@
 	--green3: #f3f1e7;
 	--green4: #008248;
 	--white: #f1f8f6;
+	--white1: #ffffff;
 	--black: #000000;
 }
 html {
 	font-size: 62.5%;
+	font-family: sans-serif;
 }
 /* header */
 .header {
@@ -17,28 +19,30 @@ html {
 	width: 100%;
 	height: 100px;
 	display: flex;
-	background-color: #1e3932;
+	justify-content: space-between;
+	background-color: var(--white1);
 }
-.nav__container--icon {
-	margin-left: 30px;
-	margin-top: 20px;
-}
-.nav__container--icon img {
-	width: 55px;
-	height: 55px;
-}
-/* nav */
-.nav__ul {
+.nav__container--nav1 {
 	display: flex;
 	align-items: center;
 }
-.nav__li--container {
-	display: flex;
-	gap: 15px;
+.nav__container--nav1 img {
+	width: 55px;
+	height: 55px;
+	margin-left: 30px;
 }
+/* nav */
+.nav__container--nav2 {
+	display: flex;
+	align-items: center;
+}
+
 .nav__ul--li {
 	list-style: none;
+	font-size: 1.4rem;
+	font-weight: bold;
 }
+
 /* fin nav */
 
 /* fin header */
