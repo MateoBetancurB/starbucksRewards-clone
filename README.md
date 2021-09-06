@@ -1,3 +1,3 @@
-# starbucksRewards-clone
+# starbucksHome-clone
 
-project url: https://www.starbucks.com/rewards
+project url: https://www.starbucks.com
