@@ -19,7 +19,7 @@ html {
 }
 .header__navbar {
 	width: 100%;
-	height: 100px;
+	height: 85px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	background-color: var(--white1);
@@ -80,3 +80,32 @@ html {
 /* fin nav */
 
 /* fin header */
+/* main */
+.main__container--section1 {
+	background-color: var(--green2);
+	height: 160px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.section1__paragraph {
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-align: center;
+	width: 50%;
+	line-height: 35px;
+}
+.section1__paragraph a {
+	color: black;
+}
+.main__container--section2 {
+	background-color: var(--orange);
+	margin-top: 35px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.section2__img {
+	width: 500px;
+	height: 400px;
+}
