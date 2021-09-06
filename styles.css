@@ -3,9 +3,11 @@
 	--green2: #d4e9e2;
 	--green3: #f3f1e7;
 	--green4: #008248;
+	--green5: #d8e8e3;
 	--white: #f1f8f6;
 	--white1: #ffffff;
 	--black: #000000;
+	--orange: #ebdbc8;
 }
 html {
 	font-size: 62.5%;
@@ -21,6 +23,7 @@ html {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	background-color: var(--white1);
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .nav__container--nav1 {
 	display: flex;
