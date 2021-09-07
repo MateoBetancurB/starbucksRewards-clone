@@ -146,6 +146,8 @@ html {
 	background-color: var(--orange);
 	margin-top: 35px;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .section3__container--text {
 	width: 50%;
@@ -206,7 +208,7 @@ html {
 .section4__container--button {
 	display: flex;
 	justify-content: center;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 .section4__container--button a {
 	color: var(--white);
@@ -221,4 +223,100 @@ html {
 .section4__container--text {
 	width: 50%;
 	padding: 40px 40px 0 40px;
+}
+.main__container--section5 {
+	background-color: var(--green2);
+	margin-top: 35px;
+	display: flex;
+	align-items: center;
+	justify-self: center;
+}
+.section5__heading {
+	color: var(--green1);
+	font-size: 3rem;
+	text-align: center;
+}
+.section5__paragraph {
+	color: var(--green1);
+	font-size: 2rem;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 20px;
+	padding: 0px 40px;
+}
+.section5__container--text {
+	width: 50%;
+	padding: 40px 40px 0 40px;
+}
+.section5__container--button {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.section5__container--button a {
+	color: var(--green1);
+	text-decoration: none;
+	border: 1px solid var(--green1);
+	padding: 5px 20px;
+	border-radius: 40px;
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin: 0 auto;
+}
+.section6__img {
+	width: 517px;
+	height: 300px;
+}
+.main__container--section6 {
+	background-color: var(--green2);
+	margin-top: 36px;
+	display: flex;
+	align-items: center;
+	justify-self: center;
+	padding-bottom: 30px;
+}
+.section6__heading {
+	color: var(--black);
+	font-size: 3rem;
+	text-align: center;
+}
+.section6__paragraph {
+	color: var(--black);
+	font-size: 2rem;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 20px;
+	padding: 0px 40px;
+}
+.section6__container--text {
+	width: 70%;
+	padding: 40px 40px 0 40px;
+}
+.section6__container--button {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.section6__container--button a {
+	color: var(--black);
+	text-decoration: none;
+	border: 1px solid var(--black);
+	padding: 5px 20px;
+	border-radius: 40px;
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin: 0 auto;
+}
+.section7__container {
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 2px solid black;
+}
+.section7__paragraph {
+	font-size: 1.5rem;
+	width: 50%;
+	text-align: center;
 }
