@@ -313,17 +313,30 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-bottom: 2px solid black;
+	/* border-bottom: 1px solid gray; */
 }
 .section7__paragraph {
 	font-size: 1.5rem;
 	width: 50%;
 	text-align: center;
 }
-
-.elements1 a {
-	display: block;
+/* navbar footer */
+.navbar__footer--container {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
-.elements2 a {
-	display: block;
+.text__navbar--footer {
+	font-size: 1.8rem;
 }
+.elements1 a,
+.elements2 a,
+.elements3 a,
+.elements4 a,
+.elements5 a {
+	display: block;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: gray;
+	padding-bottom: 15px;
+}
+/* navbar footer */
