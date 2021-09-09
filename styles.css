@@ -320,3 +320,10 @@ html {
 	width: 50%;
 	text-align: center;
 }
+
+.elements1 a {
+	display: block;
+}
+.elements2 a {
+	display: block;
+}
