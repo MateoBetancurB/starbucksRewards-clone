@@ -341,3 +341,26 @@ html {
 	padding-bottom: 15px;
 }
 /* navbar footer */
+/* footer */
+.footer__container--icons {
+	display: flex;
+	gap: 15px;
+	margin-top: -50px;
+}
+.footer__icons {
+	width: 35px;
+	height: 35px;
+}
+.footer__container--text {
+	margin-top: 50px;
+}
+.footer__paragraph {
+	font-size: 1.7rem;
+	margin-bottom: 20px;
+}
+.footer__paragraph:nth-child(5) {
+	font-weight: 400;
+	font-size: 1.4rem;
+	color: gray;
+}
+/* footer */
